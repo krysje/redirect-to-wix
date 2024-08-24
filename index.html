@@ -2,7 +2,10 @@
 <html lang="en">
     <head>
         <meta http-equiv="refresh" content="0;url=https://amanlies.wixsite.com/home/">
-        <script type="text/javascript"> window.location.href = "https://amanlies.wixsite.com/home/"; </script>
+        <script type="text/javascript"> 
+        var currentPath = window.location.search + window.location.pathname;
+        window.location.href = "https://amanlies.wixsite.com/home/" + currentPath;         
+        </script>
         <title>Redirecting...</title>
     </head>
     <body>
